@@ -1,3 +1,3 @@
-## Data Analysis - Writing SQl queries
+## Data Analysis - Writing SQL queries
 
 Yeah, keep moving Serg.
