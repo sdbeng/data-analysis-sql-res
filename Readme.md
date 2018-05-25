@@ -1,3 +1,3 @@
-## Data Amanysis - Writing SQl queries
+## Data Analysis - Writing SQl queries
 
 Yeah, keep moving Serg.
