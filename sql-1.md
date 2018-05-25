@@ -1,5 +1,5 @@
 # A Day in the Life - Data Analyst
-It's Catherine's first day working as a Data Analyst for ACME. She's excited to use some of the tools that she learned in Learn SQL from Scratch, such as:
+It's my first day working as a Data Analyst for ACME. Excited to use some of the tools that she learned in Learn SQL from Scratch, such as:
 
 Writing basic queries
 Calculating aggregates
@@ -17,7 +17,7 @@ SQL (pronounced "S-Q-L" or "sequel") allows you to write queries which define th
 
 Many databases use SQL (Structured Query Language). SQL is a great way to access data and a great entry point to programming because its syntax (the specific vocabulary that gives instructions to the computer) is very human-readable. Without knowing any SQL, you might still be able to guess what each command will do.
 
-On her first day at ACME, Catherine wants to become familiar with the company's data, so she connects to the database and uses SQL to explore the database.
+On her first day at ACME, Serg wants to become familiar with the company's data, so she connects to the database and uses SQL to explore the database.
 
 Instructions
 1.
@@ -44,11 +44,11 @@ Not all users who browse on the website will find something that they like enoug
 
 This type of multi-step process where some users leave at each step is called a funnel.
 
-Catherine wants to determine what percent of users make it through each step of the funnel so that she can recommend improvements to ACME's website.
+Serg wants to determine what percent of users make it through each step of the funnel so that she can recommend improvements to ACME's website.
 
 Instructions
 1.
-Catherine is going to combine data from three different tables:
+Serg is going to combine data from three different tables:
 
 browse - gives the timestamps of users who visited different item description pages
 checkout - gives the timestamps of users who visited the checkout page
@@ -74,13 +74,13 @@ SELECT ROUND(
 ## Analyzing User Churn
 A churn rate is the percent of subscribers to a monthly service who have canceled. For example, in January, ACME has 1,000 customers. In February, 200 customers sign up, and 250 cancel. The churn rate for February would be: cancellations over subscribers equals 250 over 1000 plus 200 equals 20.8 percent
 
-Catherine wants to analyze the churn rates for ACME for the past few months.
+Serg wants to analyze the churn rates for ACME for the past few months.
 
 Instructions
 1.
-Click "Run", to see Catherine's analysis for the churn rate in March 2017.
+Click "Run", to see Serg's analysis for the churn rate in March 2017.
 
-What recommendations would you make to ACME based on Catherine's analysis?
+What recommendations would you make to ACME based on Serg's analysis?
 
 ```
 SELECT COUNT(DISTINCT user_id) AS enrollments,
@@ -101,13 +101,13 @@ WHERE signup_date < '2017-04-01'
 ```
 
 ## Determining Web Traffic Attribution
-Catherine's boss asks her to analyze how users are finding ACME's websites using UTM Parameters. UTM Parameters are special tags that site owners add to their pages to track what website a user was on before they reach the website. For instance:
+Serg's boss asks her to analyze how users are finding ACME's websites using UTM Parameters. UTM Parameters are special tags that site owners add to their pages to track what website a user was on before they reach the website. For instance:
 
 If a user found ACME's website through a Google search, the table page_visits might have utm_source equal to 'google'.
 If a different user clicked a Facebook ad to get to ACME's website, then their row in page_visits might have utm_source equal to 'facebook'.
 Instructions
 1.
-Catherine wants to know how many visits come from each utm_source.
+Serg wants to know how many visits come from each utm_source.
 
 ```
 SELECT utm_source,
